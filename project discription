@@ -1,0 +1,7 @@
+this is project 
+
+ansile in jenkins system
+docker in other system
+write the playook and doker file
+in docker system home dir contain the docker file and war file -- for the we copy the dockerfile and war file docker system -user home dir (/home/ec2-user)
+in this we use the sshagent plugin 
