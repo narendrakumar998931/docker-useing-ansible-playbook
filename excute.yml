@@ -1,0 +1,7 @@
+---
+- name: docker fil excution
+  hosts: web
+  become: true
+  tasks:
+    - name: excute docker file
+      command: "docker build -t bnani/ansi ."
