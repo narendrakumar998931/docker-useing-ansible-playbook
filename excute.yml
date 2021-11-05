@@ -4,4 +4,4 @@
   become: true
   tasks:
     - name: excute docker file
-      command: "docker build ansi ."
+      command: "docker build -t bnani/ansi -f ."
